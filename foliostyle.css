@@ -5,6 +5,8 @@
   text-decoration: none;
 }
 
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -34,7 +36,7 @@ section {
 }
 
 .about .hp {
-  background: linear-gradient(360deg, rgb(80, 160, 100), rgb(60, 170, 190));
+  
 }
 
 section .title {
@@ -224,7 +226,7 @@ section .title::after {
   width: 400px;
   object-fit: contain;
   border-radius: 50%;
-  border: 2px rgb(50, 200, 230);
+  border: 2px solid rgb(0, 150, 235);
 }
 
 .about .aboutcontent .right {
@@ -242,7 +244,7 @@ section .title::after {
 }
 
 .about .aboutcontent .right .text span {
-  color: darkblue;
+  color: rgb(0, 150, 240);
 }
 
 .about .aboutcontent .right .para {
@@ -253,7 +255,7 @@ section .title::after {
 
 .about .aboutcontent .right .cv {
   width: 200px;
-  background: rgb(50, 150, 200);
+  background: rgb(0, 150, 210);
   color: white;
   padding: 10px 30px;
   margin-top: 20px;
@@ -275,14 +277,15 @@ section .title::after {
 /*Services section starts here*/
 
 .services {
-  background: linear-gradient(360deg, rgb(80, 180, 100), rgb(60, 170, 200));
-  color: black;
+  background: #222;
 }
 
 .services .title::before {
   background-color: white;
 }
-
+.services .title{
+  color:#fff;
+}
 .services .title::after {
   background-color: rgb(50, 150, 220);
   border-radius: 20px;
@@ -293,7 +296,7 @@ section .title::after {
 .services .servecontent .card {
   width: calc(33% 20px);
   color: white;
-  background: linear-gradient(360deg, rgb(80, 180, 100), rgb(60, 170, 200));
+  background: #111;
   text-align: center;
   border-radius: 6px;
   padding: 40px 25px;
@@ -332,15 +335,11 @@ section .title::after {
   margin: 10px 0 8px 0;
 }
 
-.full {
-  width: 100%;
-  background: linear-gradient(360deg, darkcyan, cyan);
-}
 
 /* skills section starts here */
 .skills {
   font-family: sans-serif;
-  background: linear-gradient(360deg, rgb(80, 180, 100), rgb(60, 170, 200));
+  background: ;
 }
 
 .skills .title::after {
@@ -443,6 +442,9 @@ section .title::after {
 
 .skills-content .right p::first-letter {
   color: darkblue
+}
+.skills-content .right p{
+  font-weight: 550;
 }
 
 /* CONTACT STYLING BEGINS HERE*/
@@ -577,13 +579,13 @@ body {
        color:darkcyan;
 }
 footer{
-  background: rgb(50, 150,235);
+  background: rgb(50, 140, 220);
   color:white;
   text-align:center;
   height:40px;
 }
 
 footer span{
-  font-size:18px;
+  font-size:20px;
   margin-top:10px;
 }
