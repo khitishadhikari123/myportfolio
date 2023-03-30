@@ -550,10 +550,6 @@ section .title::after {
   transition: all 0.3 ease;
 }
 
-footer.span {
-  font-size: 7px;
-}
-
 .contact-content .right .btnarea button {
   background: rgb(50, 150, 230);
   font-size: 15px;
@@ -579,4 +575,15 @@ body {
 }
 .contact .contact-content .left .rows .info a:hover{
        color:darkcyan;
+}
+footer{
+  background: rgb(50, 150,235);
+  color:white;
+  text-align:center;
+  height:40px;
+}
+
+footer span{
+  font-size:18px;
+  margin-top:10px;
 }
