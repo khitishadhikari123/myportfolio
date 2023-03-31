@@ -391,12 +391,12 @@ section .title::after {
   width: 25vw;
   height: 40vh;
   overflow: hidden;
-  animation: mycard 15s linear infinite;
+  animation: mycard 18s linear infinite;
 }
 
 @keyframes mycard {
   100% {
-    transform: rotateY(360deg);
+    transform: skewY(360deg);
   }
 }
 
