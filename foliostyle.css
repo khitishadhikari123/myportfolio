@@ -396,7 +396,7 @@ section .title::after {
 
 @keyframes mycard {
   100% {
-    transform: skewY(90deg,40deg);
+    transform: skew(90deg,40deg);
   }
 }
 
