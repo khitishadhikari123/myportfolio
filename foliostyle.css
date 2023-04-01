@@ -391,17 +391,17 @@ section .title::after {
   width: 25vw;
   height: 40vh;
   overflow: hidden;
-  animation: mycard 18s linear infinite;
+  animation: mycard 10s linear infinite;
 }
 
 @keyframes mycard {
   100% {
-    transform: skewY(360deg);
+    transform: skewY(90deg,40deg);
   }
 }
 
 .services .servecontent .card:hover {
-  background: black;
+  background: rgb(50,120,210);
 }
 
 .services .servecontent .card .box {
